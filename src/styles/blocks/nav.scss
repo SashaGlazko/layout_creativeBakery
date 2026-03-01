@@ -28,6 +28,14 @@
       flex-direction: row;
       gap: 64px;
     }
+
+    &--footer{
+      @include on-tablet-big {
+        flex-direction: column;
+        gap: 16px;
+      }
+    }
+
   }
 
   &__link {
